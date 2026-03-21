@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class ReadingInput{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        byte b=sc.nextByte();
+        short s=sc.nextShort();
+        int i=sc.nextInt();
+        long l=sc.nextLong();
+        char c =sc.next().charAt(0);
+        String s1=sc.next();
+        sc.nextLine();
+        String s2=sc.nextLine();
+        
+        System.out.println("int:"+i);
+        System.out.println("byte:"+b);
+        System.out.println("short:"+s);
+        System.out.println("long:"+l);
+        System.out.println("char:"+c);
+        System.out.println("s1:"+s1);
+        System.out.println("s2:"+s2);
+        
+    }
+}
